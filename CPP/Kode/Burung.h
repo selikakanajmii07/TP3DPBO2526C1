@@ -7,8 +7,7 @@ private:
     double lebarSayap;
     bool bisaTerbang;
 public:
-    Burung(string nama, int umur, double berat, Pemilik pemilik,
-           string nomorKartu, bool sudahVaksin, string catatan, double lebarSayap, bool bisaTerbang) : Hewan(nama, umur, berat, pemilik, nomorKartu, sudahVaksin, catatan), lebarSayap(lebarSayap), bisaTerbang(bisaTerbang) {}
+    Burung(string nama, int umur, double berat, Pemilik pemilik, string nomorKartu, bool sudahVaksin, string catatan, double lebarSayap, bool bisaTerbang) : Hewan(nama, umur, berat, pemilik, nomorKartu, sudahVaksin, catatan), lebarSayap(lebarSayap), bisaTerbang(bisaTerbang) {}
 
     string jenis() const override { return "Burung"; }
     string suara() const override { return "Cuit cuit!"; }
